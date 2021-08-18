@@ -1,0 +1,31 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+}
+body {
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+    background:white;
+}
+.PasswordGen {
+
+    position: relative;
+    width: 450px;
+}
+.PasswordGen h1 {
+    font-size: 35px;
+    color: black;
+}
+.PasswordGen #button {
+    cursor: pointer;
+    position: relative;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color:white;
+    background: black;
+    font-size: 24px;
+    display: inline-block;
+}
